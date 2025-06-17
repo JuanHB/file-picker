@@ -1,10 +1,8 @@
-import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui';
-import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Separator } from '@/components/ui/separator';
 import { useKnowledgeBaseStore } from '@/stores';
 import { ResourceData } from '@/types/api/resources';
-import { FileIcon, FolderIcon, FolderOpenIcon, Trash2Icon } from 'lucide-react';
+import { FileIcon, FolderIcon, FolderOpenIcon } from 'lucide-react';
 import { useShallow } from 'zustand/react/shallow';
 import { RemoveResourceButton } from './RemoveResourceButton';
 
