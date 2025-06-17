@@ -4,7 +4,6 @@ import { useKnowledgeBaseStore } from '@/stores/useKnowledgeBaseStore';
 import { useShallow } from 'zustand/react/shallow';
 import { useEffect, useRef } from 'react';
 import { useKnowledgeBase } from './api/useKnowledgeBase';
-// import { KnowledgeBaseChildrenDTO } from '@/types';
 
 const POLL_INTERVAL = 1000;
 
